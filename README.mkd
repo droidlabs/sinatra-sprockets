@@ -1,7 +1,7 @@
 Sinatra Sprockets!
 ====================
 
-Because Sprockets is cool, and Rails is cool, but they shouldn't get married.
+Because Sprockets is cool, and Rails is cool, but they shouldn't get married. This is a fork which includes changes that haven't been applied upstream. We do regular gem releases under the alphasights- prefix.
 
 Installation
 ------------

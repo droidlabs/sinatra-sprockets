@@ -6,14 +6,14 @@ Because Sprockets is cool, and Rails is cool, but they shouldn't get married.
 Installation
 ------------
 
-Run 
+Run
 
     gem install alphasights-sinatra-sprockets
 
 Or add
 
     gem 'alphasights-sinatra-sprockets', require: 'sinatra/sprockets'
-    
+
 to your Gemfile
 
 Setup
@@ -65,8 +65,8 @@ Sprockets requires a decent amount of configuration to work properly. Most of th
 
 `debug` : Boolean value. Should sprockets include assets for debugging? That is, should assets be rendered as individual included files for debugging or as the combination? When on, javascript and stylesheet debugging are much easier. Off by default, though you probably want to turn it on in development.
 
-`compile`: Boolean value. 
-  
+`compile`: Boolean value.
+
 
 Known Issues
 ------------
@@ -76,4 +76,4 @@ There's no testing or documentation. I know. Want to help?
 Anything else?
 ------------
 
-Questions, requests, concerns? Find me at [the gorgon lab](http://www.thegorgonlab.com)
+Questions, requests, concerns? You can find the original author at [the gorgon lab](http://www.thegorgonlab.com). You can find the current maintainers at [alphadev](http://dev.alphasights.com/).

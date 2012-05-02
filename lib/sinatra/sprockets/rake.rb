@@ -15,7 +15,7 @@ namespace :assets do
       config.digests ||= {}
 
       env      = Sinatra::Sprockets.environment
-      target   = File.join(config.app.settings.public_path, config.prefix)
+      target   = File.join(config.app.settings.public_folder, config.prefix)
       compiler = Sinatra::Sprockets::StaticCompiler.new(env,
                                                target,
                                                config.precompile,
@@ -34,7 +34,7 @@ namespace :assets do
   namespace :clean do
     task :all => ["environment"] do
       config = Sinatra::Sprockets.config
-      public_asset_path = File.join(config.app.settings.public_path, config.prefix)
+      public_asset_path = File.join(config.app.settings.public_folder, config.prefix)
       rm_rf public_asset_path, :secure => true
     end
   end
